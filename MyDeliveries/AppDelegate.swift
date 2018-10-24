@@ -36,6 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         ConnectivityReceiver.registerObserver(self)
         OnboardingManager.shared.delegate = self
         OnboardingManager.shared.onboardOrRestore()
+        
+        //Import the stylesheet
+        NUISettings.initWithStylesheet(name: "CustomTheme")
+
 
         return true
     }

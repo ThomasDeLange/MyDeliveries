@@ -90,13 +90,19 @@ class PackagesTypeDetailViewController: FUIFormTableViewController, SAPFioriLoad
             cell.value = " "
             cell.accessoryType = .disclosureIndicator
             return cell
+        case 5:
+            let chartNavigationCell = tableView.dequeueReusableCell(withIdentifier: "NavToShowChart", for: indexPath)
+            chartNavigationCell.textLabel?.text = "Waiting Time"
+            chartNavigationCell.textLabel?.textColor = .preferredFioriColor(forStyle: .primary1)
+            
+            return chartNavigationCell
         default:
             return UITableViewCell()
         }
     }
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        return 5
+        return 6
     }
 
     override func tableView(_: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

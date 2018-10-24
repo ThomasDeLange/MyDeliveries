@@ -44,6 +44,8 @@
 		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
 		CEC8D021CAEFA9FE10EF4CAA /* DeliveryStatusTypeMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A985378AF5DAAF5FEEF5A0 /* DeliveryStatusTypeMasterViewController.swift */; };
 		D28357ADC24B6618E0E2088E /* DeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD95E22BB848F5CBC59CA9B /* DeliveryService.swift */; };
+		E9C1D591218126AC007EE5D2 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1D590218126AC007EE5D2 /* ChartViewController.swift */; };
+		E9C1D593218129A4007EE5D2 /* CustomTheme.nss in Resources */ = {isa = PBXBuildFile; fileRef = E9C1D592218129A4007EE5D2 /* CustomTheme.nss */; };
 		F200B4057402E146479AEA6A /* DeliveryStatusType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512903990230F77FC033ECDF /* DeliveryStatusType.swift */; };
 		F3DC4AA593A3C9C713462F61 /* DeliveryServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388BB3C27874E759654D92B9 /* DeliveryServiceFactory.swift */; };
 /* End PBXBuildFile section */
@@ -102,6 +104,8 @@
 		CF7F347D648C373DA8C60672 /* DeliveryServiceMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryServiceMetadata.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.MyDeliveries/public/DeliveryServiceMetadata.swift"; sourceTree = "<group>"; };
 		D0076D769E214ADE978595D7 /* DeliveryServiceMetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryServiceMetadataText.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.MyDeliveries/internal/DeliveryServiceMetadataText.swift"; sourceTree = "<group>"; };
 		D10FCD3A7E1E1906AE341506 /* PackagesTypeMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PackagesTypeMasterViewController.swift; path = PackagesType/PackagesTypeMasterViewController.swift; sourceTree = "<group>"; };
+		E9C1D590218126AC007EE5D2 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartViewController.swift; path = PackagesType/ChartViewController.swift; sourceTree = "<group>"; };
+		E9C1D592218129A4007EE5D2 /* CustomTheme.nss */ = {isa = PBXFileReference; lastKnownFileType = text; path = CustomTheme.nss; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,7 @@
 				7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */,
 				1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */,
 				7A1315C61D4B982000A5DA56 /* Info.plist */,
+				E9C1D592218129A4007EE5D2 /* CustomTheme.nss */,
 			);
 			path = MyDeliveries;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				FC724DD88992B1CD5F346128 /* PackagesType.storyboard */,
 				D10FCD3A7E1E1906AE341506 /* PackagesTypeMasterViewController.swift */,
 				BB2FCFF6E0281F9EAEA5C4ED /* PackagesTypeDetailViewController.swift */,
+				E9C1D590218126AC007EE5D2 /* ChartViewController.swift */,
 			);
 			name = PackagesType;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 			files = (
 				7A16F06D1FD1B3C700D2FABD /* README.md in Resources */,
 				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
+				E9C1D593218129A4007EE5D2 /* CustomTheme.nss in Resources */,
 				12D066CF1F4DDB0E0075EBA4 /* (null) in Resources */,
 				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
 				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
@@ -344,6 +351,7 @@
 				75AC42D41DAF824D00B445FF /* CollectionsViewController.swift in Sources */,
 				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
 				1C0F50EEB5B6E89006979660 /* DeliveryServiceMetadataText.swift in Sources */,
+				E9C1D591218126AC007EE5D2 /* ChartViewController.swift in Sources */,
 				6061C196E3120ADCA39981ED /* DeliveryServiceStaticResolver.swift in Sources */,
 				F3DC4AA593A3C9C713462F61 /* DeliveryServiceFactory.swift in Sources */,
 				463F8AFCEB01EB35EE43A1FB /* DeliveryServiceMetadataChanges.swift in Sources */,
